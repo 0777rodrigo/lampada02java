@@ -1,0 +1,50 @@
+body{
+
+    background: linear-gradient(blue,rgb(0, 255, 255));
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    
+    #central{
+    
+    width: 500px;
+    border-radius: 70px;
+    background: white;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    
+    #ligada{
+
+    background-color:yellow;
+    height: 70px;
+    width: 150px;
+    border: none; 
+    
+    }
+
+    #desligada{
+
+    background-color: red;
+    height: 70px;
+    width: 150px;
+    border: none;
+
+    }
+    
+    #quebrada{
+
+    background-color: darkblue;
+    height: 70px;
+    width: 150px;
+    border:none; 
+
+    }
